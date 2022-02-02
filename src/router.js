@@ -11,7 +11,7 @@ export default new Router({
     routes: [
         { path: '/', redirect: { name: 'home' } },
         { path: '/home', name: 'home', component: HomeComponent },
-        { path: '/', name: 'Create', component: CreateComponent },
-        { path: '/', name: 'Edit', component: EditComponent },
+        { path: '/create', name: 'Create', component: CreateComponent },
+        { path: '/edit/:id', name: 'Edit', component: EditComponent },
     ]
 });

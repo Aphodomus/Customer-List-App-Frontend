@@ -35,6 +35,13 @@
   </div>
 </template>
 
+<style>
+.form-wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+</style>
+
 <script>
 import axios from "axios";
 import { server } from "../../helper";

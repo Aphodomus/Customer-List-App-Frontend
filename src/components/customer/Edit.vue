@@ -25,10 +25,6 @@
                     <input type="text" id="phone" v-model="customer.phone" name="title" class="form-control" placeholder="Enter phone">
                 </div>
                 <div class="form-group col-md-12">
-                    <label for="phone">Phone</label>
-                    <input type="text" id="phone" v-model="customer.phone" name="title" class="form-control" placeholder="Enter phone">
-                </div>
-                <div class="form-group col-md-12">
                     <label for="address">Address</label>
                     <input type="text" id="address" v-model="customer.address" name="title" class="form-control" placeholder="Enter Address">
                 </div>
